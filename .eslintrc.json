@@ -1,0 +1,79 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "es2023": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 14
+  },
+  "ignorePatterns": [
+    "node_modules/*",
+    ".next/*",
+    ".out/*",
+    "!.prettierrc",
+    "package.json",
+    "package-lock.json",
+    "tsconfig.json",
+    "public/assets/images/*"
+  ],
+  "extends": ["eslint:recommended", "next/core-web-vitals", "next"],
+  "overrides": [
+    // This configuration will apply only to TypeScript files
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "parser": "@typescript-eslint/parser",
+      "settings": {
+        "react": {
+          "version": "detect"
+        }
+      },
+      "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+      },
+      "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended", // TypeScript rules
+        "plugin:react/recommended", // React rules
+        "plugin:react-hooks/recommended", // React hooks rules
+        "plugin:jsx-a11y/recommended", // Accessibility rules
+        "plugin:prettier/recommended"
+      ],
+      "rules": {
+        "prettier/prettier": "warn",
+        // We will use TypeScript's types for component props instead
+        "react/prop-types": "off",
+        // No need to import React when using Next.js
+        "react/react-in-jsx-scope": "off",
+        // This rule is not compatible with Next.js's <Link /> components
+        "jsx-a11y/anchor-is-valid": "off",
+        //
+        "@typescript-eslint/no-namespace": "off",
+        // Doesn't accept the any type
+        "@typescript-eslint/no-explicit-any": "error",
+        // Why would you want unused vars?
+        "@typescript-eslint/no-unused-vars": "error",
+        // We need use unescaped entities without warning
+        "react/no-unescaped-entities": "off",
+        // We have Head component from Next.js
+        "@next/next/no-head-element": "warn",
+        // We have Link component from Next.js
+        "@next/next/no-html-link-for-pages": "warn",
+        // We have Image component from Next.js that improves the performance
+        "@next/next/no-img-element": "warn",
+        // Titles should be defined at the page-level using the <Head> component from Next.js
+        "@next/next/no-title-in-document-head": "warn",
+        // All images should have an alt attribute
+        "jsx-a11y/alt-text": "warn",
+        // Enforce heading (h1, h2, etc) elements contain accessible content.
+        "jsx-a11y/heading-has-content": "warn",
+        // Enforce iframe elements have a title attribute.
+        "jsx-a11y/iframe-has-title": "warn",
+        // Enforce <img> alt prop does not contain the word "image", "picture", or "photo".
+        "jsx-a11y/img-redundant-alt": "warn"
+      }
+    }
+  ]
+}
