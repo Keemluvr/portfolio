@@ -42,7 +42,12 @@
         "plugin:prettier/recommended"
       ],
       "rules": {
-        "prettier/prettier": "warn",
+        "prettier/prettier": [
+          "error",
+          {
+            "endOfLine": "auto"
+          }
+        ],
         // We will use TypeScript's types for component props instead
         "react/prop-types": "off",
         // No need to import React when using Next.js

@@ -6,12 +6,14 @@ import { Locale, localesMap } from "@/constants/locales";
 import { useRouter } from "next/navigation";
 import { useTransition } from "react";
 import Image from "next/image";
+import useWindowSize from "@/hooks/useWindowSize";
 
 const LocaleSwitcher = () => {
   const router = useRouter();
   const localActive = useLocale();
   const currentLocale = localesMap.find((l) => l.value === localActive);
   const [isPending, startTransition] = useTransition();
+  const { width } = useWindowSize();
 
   const onChangeLocale = (nextLocale: Locale) => {
     startTransition(() => {
@@ -24,13 +26,18 @@ const LocaleSwitcher = () => {
   );
 
   return (
-    <Dropdown isDisabled={isPending}>
+    <Dropdown isDisabled={isPending} classNames={{ content: "max-w-20 min-w-20" }}>
       <DropdownTrigger>
-        <Button variant="ghost" startContent={flag(currentLocale?.label, currentLocale?.flag)}>
-          {currentLocale?.label}
+        <Button
+          variant="ghost"
+          color="secondary"
+          startContent={width > 640 && flag(currentLocale?.label, currentLocale?.flag)}
+          className="min-w-10"
+        >
+          {width > 640 ? currentLocale?.label : flag(currentLocale?.label, currentLocale?.flag)}
         </Button>
       </DropdownTrigger>
-      <DropdownMenu aria-label="locales" selectedKeys={[localActive]}>
+      <DropdownMenu aria-label="locales" selectedKeys={[localActive]} color="secondary">
         {localesMap.map((locale) => (
           <DropdownItem
             key={locale.value}
