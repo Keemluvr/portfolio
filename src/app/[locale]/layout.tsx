@@ -16,7 +16,7 @@ export default async function LocaleLayout({ children, params: { locale } }: Loc
   return (
     <html lang={locale}>
       <NextIntlClientProvider locale={locale} messages={messages}>
-        <body className={clsx(lato.className, "relative -z-50")}>
+        <body className={clsx(lato.className)}>
           <Providers>{children}</Providers>
         </body>
       </NextIntlClientProvider>

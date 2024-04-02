@@ -1,1 +1,1 @@
-const WEBSITE = "";
+export const WEBSITE = "";
