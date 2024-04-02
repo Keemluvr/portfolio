@@ -1,7 +1,7 @@
 export const EN = "en";
-export const BR = "pt";
+export const PT = "pt";
 
-export const locales = [EN, BR];
+export const locales = [EN, PT];
 
 export const defaultLocale = EN;
 
@@ -18,8 +18,8 @@ export const localesMap: Locale[] = [
     flag: "https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.0/flags/4x3/us.svg"
   },
   {
-    value: BR,
-    label: "BR",
+    value: PT,
+    label: "PT",
     flag: "https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.0/flags/4x3/br.svg"
   }
 ];
