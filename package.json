@@ -9,14 +9,14 @@
     "check-types": "tsc --project tsconfig.json --pretty --noEmit",
     "lint": "next lint --config .eslintrc.json --fix",
     "format": "prettier --config .prettierrc --write \"**/**/**/*.{ts,tsx,json}\"",
-    "prepare": "cd .. && husky install client/.husky"
+    "prepare": "cd .. && husky install .husky"
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.10",
     "@plaiceholder/next": "^2.1.0",
     "clsx": "^2.1.0",
     "framer-motion": "^10.18.0",
-    "next": "14.0.4",
+    "next": "14.1.0",
     "next-intl": "^3.9.4",
     "plaiceholder": "^3.0.0",
     "react": "^18",
