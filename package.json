@@ -21,7 +21,8 @@
     "plaiceholder": "^3.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-toastify": "^10.0.4"
+    "react-toastify": "^10.0.4",
+    "sharp": "^0.33.1"
   },
   "devDependencies": {
     "@types/node": "^20",
