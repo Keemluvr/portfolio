@@ -1,5 +1,5 @@
-import Home from "@/components/pages/home";
-import generateMetadata from "@/components/templates/metadata";
+import Home from "@/components/templates/home";
+import generateMetadata from "@/components/organisms/metadata";
 
 let metadata = {};
 

@@ -1,7 +1,9 @@
-import Header from "@/components/organisms/header";
 import Sidebar from "@/components/organisms/sidebar";
+import Header from "@/components/organisms/header";
+import Hero from "@/components/organisms/hero";
+import getLocalBase64 from "@/lib/getLocalBase64";
 
-export default async function Home() {
+const Home = async () => {
   const navItems = [
     {
       label: "about",
@@ -21,12 +23,17 @@ export default async function Home() {
     }
   ];
 
+  const profileImage = (await getLocalBase64("/assets/keila.jpeg")) || "";
+
   return (
     <div className="grid grid-cols-[60px_1fr]">
       <Sidebar items={navItems}></Sidebar>
       <main>
         <Header />
+        <Hero profileImage={profileImage} />
       </main>
     </div>
   );
-}
+};
+
+export default Home;
