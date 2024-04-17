@@ -4,9 +4,9 @@ import { Navbar, NavbarContent, NavbarItem, Button } from "@nextui-org/react";
 import { classNameHeader, classNamesHeader } from "./style";
 import { useLocale, useTranslations } from "next-intl";
 import { useMemo, useState } from "react";
-import { Reveal } from "../motion-effects/reveal";
-import LocaleSwitcher from "../locale-switcher";
-import ExternalLink from "../external-link";
+import { Reveal } from "@/components/atoms/motion-effects/reveal";
+import LocaleSwitcher from "@/components/molecules/locale-switcher";
+import ExternalLink from "@/components/atoms/external-link";
 import socialList from "./constants/social-list";
 
 const Header = () => {

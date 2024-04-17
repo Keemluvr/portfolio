@@ -1,7 +1,7 @@
-import CodePen from "@/components/svg/code-pen";
-import Github from "@/components/svg/github";
-import Instagram from "@/components/svg/instagram";
-import Linkedin from "@/components/svg/linkedin";
+import CodePen from "@/components/atoms/svg/code-pen";
+import Github from "@/components/atoms/svg/github";
+import Instagram from "@/components/atoms/svg/instagram";
+import Linkedin from "@/components/atoms/svg/linkedin";
 import { CODE_PEN, GITHUB, INSTAGRAM, LINKEDIN } from "@/constants/social";
 
 const social = [
