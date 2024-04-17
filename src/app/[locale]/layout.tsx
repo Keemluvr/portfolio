@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from "next-intl";
-import { lato } from "../fonts";
+import { poppins } from "../fonts";
 import { Providers } from "../providers";
 import { getMessages } from "next-intl/server";
 import clsx from "clsx";
@@ -14,9 +14,9 @@ export default async function LocaleLayout({ children, params: { locale } }: Loc
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className="min-h-full">
       <NextIntlClientProvider locale={locale} messages={messages}>
-        <body className={clsx(lato.className)}>
+        <body className={clsx(poppins.className, "min-h-full ")}>
           <Providers>{children}</Providers>
         </body>
       </NextIntlClientProvider>

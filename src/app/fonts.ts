@@ -1,8 +1,8 @@
-import { Lato } from "next/font/google";
+import { Poppins } from "next/font/google";
 
-export const lato = Lato({
-  variable: "--font-lato",
+export const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
-  weight: ["100", "300", "400", "700", "900"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   display: "swap"
 });

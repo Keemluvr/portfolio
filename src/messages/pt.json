@@ -1,5 +1,11 @@
 {
-	"Header": {
-		"my-resume": "Meu currículo"
-	}
+  "Header": {
+    "my-resume": "Meu currículo"
+  },
+  "Sidebar": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "experience": "Exp.",
+    "contact": "Contato"
+  }
 }
