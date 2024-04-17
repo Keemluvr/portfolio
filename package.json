@@ -9,7 +9,7 @@
     "check-types": "tsc --project tsconfig.json --pretty --noEmit",
     "lint": "next lint --config .eslintrc.json --fix",
     "format": "prettier --config .prettierrc --write \"**/**/**/*.{ts,tsx,json}\"",
-    "prepare": "cd .. && husky install .husky"
+    "prepare": "husky install .husky"
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.10",
@@ -43,5 +43,11 @@
     "pretty-quick": "^4.0.0",
     "tailwindcss": "^3.3.0",
     "typescript": "^5.1.6"
+  },
+  "lint-staged": {
+    "*.ts": "prettier --write",
+    "src/**/*.ts": [
+      "eslint"
+    ]
   }
 }
