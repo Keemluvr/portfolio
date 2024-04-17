@@ -1,38 +1,10 @@
-import generateMetadata from "@/components/metadata";
-import Sidebar from "@/components/sidebar";
-import Header from "@/components/header";
+import Home from "@/components/pages/home";
+import generateMetadata from "@/components/templates/metadata";
 
 let metadata = {};
 
-export default async function Index() {
-  metadata = await generateMetadata({ pageName: "home" });
-
-  const navItems = [
-    {
-      label: "about",
-      link: "#about"
-    },
-    {
-      label: "projects",
-      link: "#projects"
-    },
-    {
-      label: "experience",
-      link: "#experience"
-    },
-    {
-      label: "contact",
-      link: "#contact"
-    }
-  ];
-
-  return (
-    <div className="grid grid-cols-[60px_1fr]">
-      <Sidebar items={navItems}></Sidebar>
-      <main>
-        <Header />
-      </main>
-    </div>
-  );
+export default async function HomePage() {
+  metadata = generateMetadata({ pageName: "home" });
+  return <Home />;
 }
 export { metadata };
