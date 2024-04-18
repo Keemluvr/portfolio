@@ -7,5 +7,12 @@
     "projects": "Projects",
     "experience": "Exp.",
     "contact": "Contact"
+  },
+  "Hero": {
+    "hi-im-keila": "Hi, I'm Keila",
+    "im-a": "I'm a",
+    "frontend-developer": "Frontend Developer",
+    "im-passionate-about": "I'm passionate about creating web experiences. I am driven by the opportunity to positively impact people's lives through technology and I am always looking for opportunities to learn and grow professionally.",
+    "contact-me": "Contact me"
   }
 }

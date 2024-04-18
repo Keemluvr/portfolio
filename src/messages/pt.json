@@ -7,5 +7,12 @@
     "projects": "Projetos",
     "experience": "Exp.",
     "contact": "Contato"
+  },
+  "Hero": {
+    "hi-im-keila": "Oi, eu sou Keila",
+    "im-a": "Sou uma",
+    "frontend-developer": "Frontend Developer",
+    "im-passionate-about": "Sou apaixonada por criar experiências web. Sou movida pela oportunidade de impactar positivamente a vida das pessoas através da tecnologia e estou sempre em busca de oportunidades para aprender e crescer profissionalmente.",
+    "contact-me": "Entrar em contato"
   }
 }
