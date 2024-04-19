@@ -14,7 +14,7 @@ const generateMetadata = async ({ pageName }: generateMetadataProps): Promise<Me
   const isProduction = process.env.ENVIRONMENT === "production";
   const page = meta[pageName];
   const currentURL = `${WEBSITE}${page?.path}`;
-  const siteName = "Keila Fernandes";
+  const siteName = "Keila Fernandes | Frontend Developer";
 
   return {
     title: page?.name,

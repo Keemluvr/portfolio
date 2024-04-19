@@ -40,7 +40,7 @@ const Hero = ({ profileImage }: HeroProps) => {
           </Reveal>
           <Reveal>
             <Link href="#contact">
-              <Button color="secondary" radius="sm">
+              <Button color="secondary" radius="sm" className={className.heroContactButton}>
                 {t("contact-me")}
               </Button>
             </Link>
