@@ -7,3 +7,5 @@ export const GITHUB = "https://github.com/Keemluvr";
 export const INSTAGRAM = "https://www.instagram.com/keemluvr";
 
 export const CODE_PEN = "https://codepen.io/keemluvr";
+
+export const WHATSAPP = "https://wa.me/5516997204169";

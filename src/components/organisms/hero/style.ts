@@ -5,7 +5,7 @@ export const classNamesHero = {
 };
 
 export const classNameHero = {
-  heroWrapper: "px-4 sm:px-24 max-w-screen-xl mx-auto mb-40",
+  heroWrapper: "px-2 sm:px-24 max-w-screen-2xl mx-auto",
   heroContentWrapper:
     "flex flex-col-reverse lg:flex-row gap-10 justify-center items-center relative lg:gap-0 min-h-[calc(100vh-96px)] relative",
   heroDescriptionWrapper: "flex flex-col justify-center items-center lg:items-start gap-4 w-full lg:w-1/2 ",
