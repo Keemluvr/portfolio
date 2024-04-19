@@ -36,10 +36,12 @@ const config: Config = {
             primary: {
               DEFAULT: "#111111",
               100: "#ebecf3",
+              200: "#232323",
               900: "#080808"
             },
             secondary: {
-              DEFAULT: "#bf94ff"
+              DEFAULT: "#bf94ff",
+              600: "#b380ff"
             }
           }
         }

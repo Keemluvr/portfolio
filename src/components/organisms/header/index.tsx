@@ -7,7 +7,7 @@ import { useMemo, useState } from "react";
 import { Reveal } from "@/components/atoms/motion-effects/reveal";
 import LocaleSwitcher from "@/components/molecules/locale-switcher";
 import ExternalLink from "@/components/atoms/external-link";
-import socialList from "./constants/social-list";
+import socialList from "../../molecules/social-network/constants/social-list";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

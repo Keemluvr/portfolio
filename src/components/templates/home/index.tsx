@@ -1,6 +1,7 @@
 import Sidebar from "@/components/organisms/sidebar";
 import Header from "@/components/organisms/header";
 import Hero from "@/components/organisms/hero";
+import About from "@/components/organisms/about";
 import getLocalBase64 from "@/lib/getLocalBase64";
 
 const Home = async () => {
@@ -31,6 +32,7 @@ const Home = async () => {
       <main>
         <Header />
         <Hero profileImage={profileImage} />
+        <About />
       </main>
     </div>
   );

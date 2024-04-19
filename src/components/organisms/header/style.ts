@@ -7,9 +7,9 @@ export const classNamesHeader = {
 };
 
 export const classNameHeader = {
-  navbarWrapper: "flex mx-auto",
+  navbarWrapper: "flex mx-auto z-50",
   navBarContent: "gap-2 sm:gap-4",
-  navbarItem: "opacity-50",
+  navbarItem: "opacity-50 opacity-50 hover:opacity-100 transition-all",
   navbarRightWrapper: "w-full flex justify-end",
   navbarRightContent: "gap-2 sm:gap-4",
   navbarExternalLink: "flex justify-center",

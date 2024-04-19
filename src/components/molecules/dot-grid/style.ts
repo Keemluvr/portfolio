@@ -1,7 +1,7 @@
 import clsx from "clsx";
 
 export const classNameDotGrid = {
-  dotGridWrapper: "grid absolute top-0 left-0 lg:left-auto right-auto lg:right-0 z-10",
+  dotGridWrapper: "grid absolute top-0 -left-5 lg:left-auto right-auto lg:right-0 top-auto z-10",
   dotGridItem: "rounded-lg p-2.5 group hover:bg-secondary transition-colors hover:bg-opacity-80 hover:cursor-pointer",
   dotFGridPoint: clsx(
     "dot-point",

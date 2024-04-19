@@ -12,7 +12,14 @@
     "hi-im-keila": "Oi, eu sou Keila",
     "im-a": "Sou uma",
     "frontend-developer": "Frontend Developer",
-    "im-passionate-about": "Sou apaixonada por criar experiências web. Sou movida pela oportunidade de impactar positivamente a vida das pessoas através da tecnologia e estou sempre em busca de oportunidades para aprender e crescer profissionalmente.",
+    "im-passionate-about": "Sou apaixonada por criar experiências web. Sou movida pela oportunidade de impactar positivamente a vida das pessoas através da tecnologia.",
     "contact-me": "Entrar em contato"
+  },
+  "About": {
+    "howdy-im-keila": "Olá! Meu nome é Keila Fernandes e sou bacharel em Ciência da Computação. Tenho experiência trabalhando tanto no mundo do desenvolvimento back quanto no front, com foco no desenvolvimento frontend. Sou apaixonada por criar websites atraentes e responsivos que proporcionem uma ótima experiência ao usuário.",
+    "my-skills-include": "Minhas habilidades incluem HTML, CSS, JavaScript e vários frameworks frontend como React e Vue.js, mas com foco em React. Também trabalhei com tecnologias backend como Node.js, Postgres, Nestjs e alguns ORMs, o que me permitiu construir aplicações full-stack.",
+    "when-im-not-coding": "Quando não estou programando, gosto de me exercitar. Acredito que manter um equilíbrio saudável entre vida pessoal e profissional é crucial para se manter produtivo e motivado.",
+    "im-always-looking-for": "Estou sempre em busca de novos desafios e oportunidades para aprender e crescer como desenvolvedora. Se você estiver interessado(a) no meu trabalho ou tiver alguma dúvida, não hesite em entrar em contato! 🔗",
+    "my-links": "Meus links"
   }
 }
