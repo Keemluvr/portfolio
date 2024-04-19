@@ -7,13 +7,14 @@ div[data-overlay-container] {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
   width: 11px;
   height: 11px;
   border-radius: 15px;
-  background: #ffffff;
+  background: #080808;
 }
 
 ::-webkit-scrollbar-track {
@@ -22,12 +23,12 @@ div[data-overlay-container] {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 15px;
-  background: #e2eafc;
+  background: #bf94ff;
 }
 
 html > ::-webkit-scrollbar-thumb {
   border-radius: 50px;
-  background: #000000;
+  background: #080808;
 }
 
 html {

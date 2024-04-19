@@ -9,8 +9,8 @@ const useForFun = [
   "AdobeXD",
   "Vercel",
   "Supabase",
-  "MongoDB",
   "Jest",
+  "MongoDB",
   "Java",
   "Spring"
 ];
