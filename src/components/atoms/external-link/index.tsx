@@ -4,7 +4,7 @@ type ExternalLinkProps = React.PropsWithChildren<AnchorHTMLAttributes<HTMLAnchor
 
 const ExternalLink: React.FC<ExternalLinkProps> = ({ children, ...props }) => {
   return (
-    <a rel="noopener noreferrer" target="_blank" {...props}>
+    <a rel="noopener noreferrer nofollow" target="_blank" {...props}>
       {children}
     </a>
   );
