@@ -4,6 +4,7 @@ import Hero from "@/components/organisms/hero";
 import About from "@/components/organisms/about";
 import getLocalBase64 from "@/lib/getLocalBase64";
 import Contact from "@/components/organisms/contact";
+import { Projects } from "@/components/organisms/projects";
 
 const Home = async () => {
   const navItems = [
@@ -34,6 +35,7 @@ const Home = async () => {
         <Header />
         <Hero profileImage={profileImage} />
         <About />
+        <Projects />
         <Contact />
       </main>
     </div>

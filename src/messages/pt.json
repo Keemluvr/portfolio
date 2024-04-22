@@ -22,6 +22,23 @@
     "im-always-looking-for": "Estou sempre em busca de novos desafios e oportunidades para aprender e crescer como desenvolvedora. Se você estiver interessado(a) no meu trabalho ou tiver alguma dúvida, não hesite em entrar em contato! 🔗",
     "my-links": "Meus links"
   },
+  "Projects": {
+    "doe-description": "DOE é um projeto que pretende ser uma base de dados para doadores de sangue.",
+    "this-blood-donor-registration": "Este sistema de cadastro de doadores de sangue foi desenvolvido durante a 3ª Maratona Dev da Rocketseat. O projeto permite que os usuários cadastrem informações sobre doações e visualizem uma lista dos últimos doadores, facilitando o gerenciamento e a visualização de dados.",
+    "during-the-development-process": "Durante o desenvolvimento, aprendi sobre template engines e a renderização de páginas no back-end, o que foi fundamental para a criação de um sistema dinâmico e eficiente.",
+    "as-an-additional-feature": "Como um recurso adicional, adicionei a troca de temas, permitindo que os usuários personalizem a aparência do sistema com base em suas preferências. O resultado é um sistema funcional e flexível que proporciona uma experiência amigável ao usuário.",
+
+    "hipsta-witch-description": "Hipsta Witch é um jogo 2D, onde a bruxa Hipsta defende a floresta dos inimigos.",
+    "is-a-engaging-game": "Hipsta Witch é um jogo 2D envolvente desenvolvido durante a Imersão Code Dev, um evento dedicado à imersão no mundo da programação. No jogo, você assume o papel de uma bruxa destemida que defende sua floresta de uma série de inimigos cada vez mais desafiadores.",
+    "during-the-development": "Durante o desenvolvimento de Hipsta Witch, explorei a fundo o uso do elemento HTML5 Canvas para criar gráficos dinâmicos e fluidos. Aprendi a controlar e detectar ações do usuário, implementar cenários complexos e animar personagens para dar vida ao jogo. O jogo oferece uma experiência imersiva graças ao uso da biblioteca p5.js, uma poderosa ferramenta para desenvolvimento gráfico interativo.",
+    "through-hipsta-witch": "Com Hipsta Witch, desenvolvi habilidades essenciais para criar jogos 2D, desde a mecânica de jogo até a estética visual. Através deste projeto, eu não apenas criei um jogo divertido, mas também adquiri conhecimento sólido em programação para jogos no navegador, incluindo design de personagens, cenários e movimentações.",
+
+    "learn-more": "Ver mais >",
+    "project-links": "Links do projeto",
+    "source-code": "código fonte",
+    "live-project": "visualizar projeto",
+    "an-image-of-the": "Uma imagem do projeto {title}."
+  },
   "Contact": {
     "contact": "Contato",
     "shoot-me-an-email": "Envie-me um e-mail se quiser entrar em contato!",

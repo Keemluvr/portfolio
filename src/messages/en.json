@@ -22,13 +22,28 @@
     "im-always-looking-for": "I'm always looking for new challenges and opportunities to learn and grow as a developer. If you're interested in working together or have any questions, please don't hesitate to get in touch! 🔗",
     "my-links": "My links"
   },
+  "Projects": {
+    "doe-description": "DOE is a project that aims to be a database for blood donors.",
+    "this-blood-donor-registration": "This blood donor registration system was developed during Rocketseat's 3rd Maratona Dev. The project allows users to register donation information and view a list of recent donors, making data management and visualization easier.",
+    "during-the-development-process": "During the development process, I learned about template engines and server-side page rendering, which was essential for creating a dynamic and efficient system.",
+    "as-an-additional-feature": "As an additional feature, I added theme switching, allowing users to personalize the system's appearance based on their preferences. The result is a functional and flexible system that provides a user-friendly experience.",
+
+    "hipsta-witch-description": "Hipsta Witch is a 2D game, where the witch Hipsta defend the forest the enemies.",
+    "is-a-engaging-game": "Hipsta Witch is an engaging 2D game developed during the Imersão Code Dev, an event focused on diving into the world of programming. In this game, you take on the role of a fearless witch defending her forest from an array of increasingly challenging enemies.",
+    "during-the-development": "During the development of Hipsta Witch, I delved into using the HTML5 Canvas element to create dynamic and fluid graphics. I learned how to capture user interactions, implement complex environments, and animate characters to bring the game to life. The game delivers an immersive experience thanks to the use of the p5.js library, a powerful tool for interactive graphics development.",
+    "through-hipsta-witch": "Through Hipsta Witch, I honed essential skills for creating 2D games, from game mechanics to visual aesthetics. This project not only allowed me to create a fun game, but also helped me gain solid knowledge in browser-based game programming, including character design, environments, and animations.",
+
+    "learn-more": "Learn more >",
+    "project-links": "Project Links",
+    "source-code": "source code",
+    "live-project": "live project",
+    "an-image-of-the": "An image of the {title} project."
+  },
   "Contact": {
     "contact": "Contact",
     "shoot-me-an-email": "Shoot me an email if you want to connect!",
     "you-can-also-find-me-on": "You can also find me on",
     "or": "or",
-    "if-thats-more-your-speed": "if that's more your speed.",
-    "project-5": "Project 5",
-    "project-6": "Project 6"
+    "if-thats-more-your-speed": "if that's more your speed."
   }
 }

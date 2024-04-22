@@ -34,3 +34,7 @@ html > ::-webkit-scrollbar-thumb {
 html {
   scroll-behavior: smooth;
 }
+
+.wrapper {
+  padding: 4rem 1.5rem;
+}
