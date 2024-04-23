@@ -3,7 +3,7 @@
 import { classNameHero, classNamesHero } from "./style";
 import { Button, Image as ImageUI } from "@nextui-org/react";
 import { useTranslations } from "next-intl";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { Reveal } from "@/components/atoms/motion-effects/reveal";
 import Image from "next/image";
 import { Link } from "@/navigation";
@@ -15,6 +15,7 @@ type HeroProps = {
 
 const Hero = ({ profileImage }: HeroProps) => {
   const t = useTranslations("Hero");
+  const [isLoadedImage, setIsLoadedImage] = useState(false);
 
   const classNames = useMemo(() => classNamesHero, []);
   const className = useMemo(() => classNameHero, []);
@@ -22,7 +23,7 @@ const Hero = ({ profileImage }: HeroProps) => {
   return (
     <section className={className.heroWrapper}>
       <div className={className.heroContentWrapper}>
-        <DotGrid />
+        <DotGrid isLoaded={isLoadedImage} />
         <div className={className.heroDescriptionWrapper}>
           <Reveal>
             <h1 className={className.heroDescriptionTitle}>
@@ -46,22 +47,25 @@ const Hero = ({ profileImage }: HeroProps) => {
             </Link>
           </Reveal>
         </div>
-        <Reveal delay={0.4} origin="top" className={className.heroImageWrapper}>
-          <ImageUI
-            as={Image}
-            priority
-            isZoomed
-            radius="full"
-            placeholder="blur"
-            blurDataURL={profileImage}
-            src="/assets/keila.jpeg"
-            alt={`"Keila Fernandes | ${t("frontend-developer")}`}
-            width={250}
-            height={250}
-            quality={100}
-            classNames={classNames.image}
-          />
-        </Reveal>
+        <div className={className.heroImageWrapper}>
+          <Reveal origin="top">
+            <ImageUI
+              as={Image}
+              priority
+              isZoomed
+              radius="full"
+              placeholder="blur"
+              blurDataURL={profileImage}
+              onLoadingComplete={() => setIsLoadedImage(true)}
+              src="/assets/keila.jpeg"
+              alt={`"Keila Fernandes | ${t("frontend-developer")}`}
+              width={250}
+              height={250}
+              quality={100}
+              classNames={classNames.image}
+            />
+          </Reveal>
+        </div>
       </div>
     </section>
   );

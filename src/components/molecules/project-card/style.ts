@@ -1,6 +1,7 @@
 import clsx from "clsx";
 
 export const classNameProjectCard = {
+  projectWrapper: "flex flex-col",
   projectImageWrapper: "rounded-lg overflow-hidden bg-primary-200 cursor-pointer relative w-full aspect-[16/9]",
   projectImage: (hovered: boolean) =>
     clsx(

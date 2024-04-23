@@ -25,7 +25,7 @@ export const ProjectCard = ({ project }: Props) => {
   const className = useMemo(() => classNameProjectCard, []);
 
   return (
-    <>
+    <div className={className.projectWrapper}>
       <Reveal>
         <div
           role="button"
@@ -45,41 +45,35 @@ export const ProjectCard = ({ project }: Props) => {
             height={0}
           />
         </div>
-        <div className={className.projectCopy}>
-          <Reveal>
-            <div className={className.projectTitle}>
-              <h4 className={className.projectTitleName}>{title}</h4>
-              <div className={className.projectTitleLine} />
-
-              <ExternalLink href={code}>
-                <AiFillGithub />
-              </ExternalLink>
-
-              <ExternalLink href={projectLink}>
-                <AiOutlineExport />
-              </ExternalLink>
-            </div>
-          </Reveal>
-          <Reveal>
-            <div className={className.projectTech}>{tech.join(" - ")}</div>
-          </Reveal>
-          <Reveal>
-            <p className={className.projectDescription}>
-              {t(description)} <br />
-              <span
-                onClick={onOpen}
-                onKeyDown={onOpen}
-                role="button"
-                tabIndex={0}
-                className={className.projectLearnMore}
-              >
-                {t("learn-more")}
-              </span>
-            </p>
-          </Reveal>
-        </div>
       </Reveal>
+      <div className={className.projectCopy}>
+        <Reveal>
+          <div className={className.projectTitle}>
+            <h4 className={className.projectTitleName}>{title}</h4>
+            <div className={className.projectTitleLine} />
+
+            <ExternalLink href={code}>
+              <AiFillGithub />
+            </ExternalLink>
+
+            <ExternalLink href={projectLink}>
+              <AiOutlineExport />
+            </ExternalLink>
+          </div>
+        </Reveal>
+        <Reveal>
+          <div className={className.projectTech}>{tech.join(" - ")}</div>
+        </Reveal>
+        <Reveal>
+          <p className={className.projectDescription}>
+            {t(description)} <br />
+            <span onClick={onOpen} onKeyDown={onOpen} role="button" tabIndex={0} className={className.projectLearnMore}>
+              {t("learn-more")}
+            </span>
+          </p>
+        </Reveal>
+      </div>
       <ProjectModal project={project} isOpen={isOpen} onOpenChange={onOpenChange} />
-    </>
+    </div>
   );
 };

@@ -6,8 +6,9 @@ import { ProjectCard } from "@/components/molecules/project-card";
 import { useMemo } from "react";
 import projects from "./constants/projects";
 
-export const Projects = () => {
+const Projects = () => {
   const className = useMemo(() => classNameProjects, []);
+
   return (
     <section id="projects" className={className.projectsWrapper}>
       <SectionHeader title="projects" dir="r" />
@@ -20,3 +21,5 @@ export const Projects = () => {
     </section>
   );
 };
+
+export default Projects;

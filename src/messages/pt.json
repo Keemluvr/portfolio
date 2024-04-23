@@ -5,7 +5,8 @@
   "Sidebar": {
     "about": "Sobre",
     "projects": "Projetos",
-    "experience": "Exp.",
+    "exp": "Exp.",
+    "experience": "Experiência",
     "contact": "Contato"
   },
   "Hero": {
@@ -38,6 +39,12 @@
     "source-code": "código fonte",
     "live-project": "visualizar projeto",
     "an-image-of-the": "Uma imagem do projeto {title}."
+  },
+  "Experience": {
+    "shaw-and-partners-title-1": "Frontend Developer Junior",
+    "shaw-and-partners-description-1": "Trabalhei na construção e manutenção de websites, aprendendo como a estrutura da empresa e os projetos funcionavam. Em meu papel, foquei em melhorar o design de componentes para proporcionar uma experiência do usuário mais fluida. Também garanti a responsividade e a acessibilidade das telas, além de contribuir para a internacionalização, tornando os sites adaptáveis a diferentes idiomas e culturas. Este aprendizado constante me permitiu criar soluções digitais alinhadas às necessidades da empresa e dos usuários.",
+    "shaw-and-partners-title-2": "Frontend Developer",
+    "shaw-and-partners-description-2": "Melhorei métricas desenvolvendo componentes reutilizáveis e bibliotecas frontend para uso futuro. Criei testes automatizados para garantir a qualidade do código e otimizei o desempenho das aplicações, incluindo SEO, detecção de erros e velocidade de carregamento. Participei de revisões de código e trabalhei com equipes de UI/UX, QA e DevOps para integração perfeita. A adoção consistente de padrões de codificação e boas práticas sempre foi parte essencial do meu trabalho."
   },
   "Contact": {
     "contact": "Contato",
