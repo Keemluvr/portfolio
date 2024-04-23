@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server";
 import { WEBSITE } from "@/constants/links";
 import type { Metadata } from "next";
 import icons from "./icons";
@@ -7,9 +8,12 @@ export type pages = "home";
 
 type generateMetadataProps = {
   pageName: pages;
+  locale: string;
 };
 
-const generateMetadata = async ({ pageName }: generateMetadataProps): Promise<Metadata> => {
+const generateMetadata = async ({ pageName, locale }: generateMetadataProps): Promise<Metadata> => {
+  const t = await getTranslations({ locale, namespace: "Metadata" });
+
   const root = `${process.env.INITIAL_PATH_URL}/`;
   const isProduction = process.env.ENVIRONMENT === "production";
   const page = meta[pageName];
@@ -18,7 +22,7 @@ const generateMetadata = async ({ pageName }: generateMetadataProps): Promise<Me
 
   return {
     title: page?.name,
-    description: page?.description,
+    description: t(page?.description),
     applicationName: siteName,
     authors: {
       name: "Keila Daiane Fernandes",
@@ -36,7 +40,7 @@ const generateMetadata = async ({ pageName }: generateMetadataProps): Promise<Me
     ...(isProduction && {
       openGraph: {
         title: page?.name,
-        description: page?.description,
+        description: t(page?.description),
         url: currentURL,
         siteName: siteName,
         images: [
@@ -51,11 +55,11 @@ const generateMetadata = async ({ pageName }: generateMetadataProps): Promise<Me
       },
       twitter: {
         site: currentURL,
-        description: page?.description,
+        description: t(page?.description),
         title: page?.name,
         images: [
           {
-            url: `${root}assets/${page.image.path}`,
+            url: `${root}assets/${page.image.path[locale]}`,
             width: page.image.width,
             height: page.image.height
           }

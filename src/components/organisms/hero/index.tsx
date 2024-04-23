@@ -56,7 +56,7 @@ const Hero = ({ profileImage }: HeroProps) => {
               radius="full"
               placeholder="blur"
               blurDataURL={profileImage}
-              onLoadingComplete={() => setIsLoadedImage(true)}
+              onLoad={() => setIsLoadedImage(true)}
               src="/assets/keila.jpeg"
               alt={`"Keila Fernandes | ${t("frontend-developer")}`}
               width={250}
