@@ -1,6 +1,6 @@
 export const classNameContact = {
   contactWrapper:
-    "px-4 sm:px-24 max-w-screen-xl mx-auto scroll-mt-32 text-center justify-center flex flex-col gap-6 h-screen",
+    "px-4 sm:px-24 max-w-screen-xl mx-auto scroll-mt-32 justify-center flex flex-col gap-6 h-screen text-center",
   contactTitle: "text-5xl lg:text-8xl font-black",
   contactTitleDot: "text-secondary",
   contactCopy: "max-w-3xl mx-auto font-extralight text-sm md:text-lg",

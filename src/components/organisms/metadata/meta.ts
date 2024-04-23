@@ -1,3 +1,4 @@
+import { EN, PT } from "@/constants/locales";
 import { pages } from "./index";
 
 type metaType = {
@@ -5,7 +6,9 @@ type metaType = {
   path: string;
   description: string;
   image: {
-    path: string;
+    path: {
+      [key: string]: string;
+    };
     width: number;
     height: number;
   };
@@ -13,13 +16,16 @@ type metaType = {
 
 const meta: Record<pages, metaType> = {
   home: {
-    name: "Keila Fernandes",
+    name: "Keila Fernandes | Frontend Developer",
     path: "",
-    description: "",
+    description: "home-description",
     image: {
-      path: "meta/hero.png",
-      width: 1208,
-      height: 589
+      path: {
+        [EN]: "meta/hero-en.png",
+        [PT]: "meta/hero-pt.png"
+      },
+      width: 1920,
+      height: 912
     }
   }
 };

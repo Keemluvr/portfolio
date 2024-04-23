@@ -4,10 +4,10 @@ import { EMAIL, LINKEDIN, WHATSAPP } from "@/constants/social";
 import { classNameContact } from "./style";
 import { useTranslations } from "next-intl";
 import { AiFillMail } from "react-icons/ai";
+import { useMemo } from "react";
 import { Reveal } from "@/components/atoms/motion-effects/reveal";
 import ExternalLink from "@/components/atoms/external-link";
 import Link from "next/link";
-import { useMemo } from "react";
 
 const Contact = () => {
   const t = useTranslations("Contact");

@@ -2,7 +2,11 @@ import { MouseEvent, useCallback, useEffect, useMemo } from "react";
 import { classNameDotGrid } from "./style";
 import anime from "animejs";
 
-export const DotGrid = () => {
+interface DotGridProps {
+  isLoaded: boolean;
+}
+
+export const DotGrid = ({ isLoaded }: DotGridProps) => {
   const GRID_WIDTH = 20;
   const GRID_HEIGHT = 20;
   const dots = [];
@@ -52,7 +56,7 @@ export const DotGrid = () => {
   }
 
   return (
-    <div style={{ gridTemplateColumns: `repeat(${GRID_WIDTH}, 1fr)` }} className={className.dotGridWrapper}>
+    <div style={{ gridTemplateColumns: `repeat(${GRID_WIDTH}, 1fr)` }} className={className.dotGridWrapper(isLoaded)}>
       {dots.map((dot) => dot)}
     </div>
   );

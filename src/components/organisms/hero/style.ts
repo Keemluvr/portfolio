@@ -1,6 +1,6 @@
 export const classNamesHero = {
   image: {
-    wrapper: "border-3 border-secondary p-2"
+    wrapper: "border-3 border-secondary p-2 z-50"
   }
 };
 

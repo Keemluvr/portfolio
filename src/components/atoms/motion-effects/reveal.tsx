@@ -20,12 +20,17 @@ export const Reveal = ({ children, className, delay, origin = "bottom", width = 
   const isInView = useInView(ref, { once: true });
 
   const mainControls = useAnimation();
+  const slideControls = useAnimation();
 
   useEffect(() => {
     if (isInView) {
+      slideControls.start("visible");
       mainControls.start("visible");
+    } else {
+      slideControls.start("hidden");
+      mainControls.start("hidden");
     }
-  }, [isInView, mainControls]);
+  }, [isInView, mainControls, slideControls]);
 
   return (
     <div ref={ref} className={clsx(width, "relative overflow-hidden", className)}>
@@ -37,6 +42,16 @@ export const Reveal = ({ children, className, delay, origin = "bottom", width = 
       >
         {children}
       </m.div>
+      <m.div
+        variants={{
+          hidden: { left: 0 },
+          visible: { left: "100%" }
+        }}
+        initial="hidden"
+        animate={slideControls}
+        transition={{ duration: 0.5, ease: "easeIn" }}
+        className="absolute top-1 bottom-1 left-0 right-0 bg-secondary z-50"
+      />
     </div>
   );
 };
