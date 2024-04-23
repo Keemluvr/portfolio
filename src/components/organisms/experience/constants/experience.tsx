@@ -7,12 +7,12 @@ const experience: Experience[] = [
     time: { start: "2020-08-01T00:00:00.000-03:00", end: "2024-03-01T00:00:00.000-03:00" },
     steps: [
       {
-        position: "shaw-and-partners-title-1",
-        description: "shaw-and-partners-description-1"
-      },
-      {
         position: "shaw-and-partners-title-2",
         description: "shaw-and-partners-description-2"
+      },
+      {
+        position: "shaw-and-partners-title-1",
+        description: "shaw-and-partners-description-1"
       }
     ],
     tech: [
