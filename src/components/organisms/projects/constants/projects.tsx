@@ -18,6 +18,15 @@ const projects: Project[] = [
     tech: ["Javascript", "p5js", "sketch"],
     description: "hipsta-witch-description",
     modalContent: ["is-a-engaging-game", "during-the-development", "through-hipsta-witch"]
+  },
+  {
+    title: "Be the Hero",
+    imgSrc: "/assets/projects/be-the-hero.png",
+    code: "https://github.com/Keemluvr/be-the-hero",
+    projectLink: "https://to-be-hero.netlify.app",
+    tech: ["ReactJS", "Local Storage", "Node", "Express", "SQLite", "Knex", "Celebrate", "Expo"],
+    description: "be-the-hero-description",
+    modalContent: ["is-a-project-i-developed", "in-developing-i-used-a", "during-the-project", "the-end-result-was-an"]
   }
 ];
 

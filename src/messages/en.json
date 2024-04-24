@@ -37,6 +37,12 @@
     "during-the-development": "During the development of Hipsta Witch, I delved into using the HTML5 Canvas element to create dynamic and fluid graphics. I learned how to capture user interactions, implement complex environments, and animate characters to bring the game to life. The game delivers an immersive experience thanks to the use of the p5.js library, a powerful tool for interactive graphics development.",
     "through-hipsta-witch": "Through Hipsta Witch, I honed essential skills for creating 2D games, from game mechanics to visual aesthetics. This project not only allowed me to create a fun game, but also helped me gain solid knowledge in browser-based game programming, including character design, environments, and animations.",
 
+    "be-the-hero-description": "Be the Hero aims to financially support charitable institutions, enabling them to continue their activities.",
+    "is-a-project-i-developed": "Be the Hero is a project I developed during Omnistack Week 11.0. It aims to financially support charitable institutions, enabling them to continue their activities. To achieve this, I created an application that allows people to make donations in a simple and secure way.",
+    "in-developing-i-used-a": "In developing Be the Hero, I used a variety of technologies. For the frontend, I worked with React, creating an interactive and responsive interface. On the backend, I used Node.js to build a secure API with robust authentication and authorization. For the mobile component, I had my first experience with Expo, a framework that facilitates building mobile applications.",
+    "during-the-project": "During the project, I learned a lot about authentication and authorization concepts, especially when working with Celebrate to ensure the API's security. I also had the opportunity to reinforce my knowledge of local storage and data persistence for authentication. Another crucial part of the process was understanding how to integrate the frontend and backend effectively, ensuring smooth communication between them.",
+    "the-end-result-was-an": "The end result was an application that helps charitable institutions gain more visibility and receive donations.",
+
     "learn-more": "Learn more >",
     "project-links": "Project Links",
     "source-code": "source code",
