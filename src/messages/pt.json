@@ -37,6 +37,12 @@
     "during-the-development": "Durante o desenvolvimento de Hipsta Witch, explorei a fundo o uso do elemento HTML5 Canvas para criar gráficos dinâmicos e fluidos. Aprendi a controlar e detectar ações do usuário, implementar cenários complexos e animar personagens para dar vida ao jogo. O jogo oferece uma experiência imersiva graças ao uso da biblioteca p5.js, uma poderosa ferramenta para desenvolvimento gráfico interativo.",
     "through-hipsta-witch": "Com Hipsta Witch, desenvolvi habilidades essenciais para criar jogos 2D, desde a mecânica de jogo até a estética visual. Através deste projeto, eu não apenas criei um jogo divertido, mas também adquiri conhecimento sólido em programação para jogos no navegador, incluindo design de personagens, cenários e movimentações.",
 
+    "be-the-hero-description": "O Be the Hero tem como objetivo ajudar financeiramente instituições de caridade, permitindo que elas continuem suas atividades.",
+    "is-a-project-i-developed": "O Be the Hero é um projeto que desenvolvi durante a Semana Omnistack 11.0. Ele tem como objetivo ajudar financeiramente instituições de caridade, permitindo que elas continuem suas atividades. Para isso, criei uma aplicação que permite que pessoas façam doações de forma simples e segura.",
+    "in-developing-i-used-a": "No desenvolvimento do Be the Hero, usei várias tecnologias. Para o frontend, trabalhei com React, criando uma interface interativa e responsiva. No backend, utilizei Node.js para construir uma API segura, com autenticação e autorização robustas. Para a parte móvel, tive minha primeira experiência com o Expo, uma ferramenta que facilita a criação de aplicativos para dispositivos móveis.",
+    "during-the-project": "Durante o projeto, aprendi muito sobre conceitos de autenticação e autorização, especialmente ao trabalhar com o Celebrate para garantir a segurança da API. Também tive a oportunidade de reforçar meu conhecimento em armazenamento local e persistência de dados para autenticação. Outra parte importante do processo foi entender como integrar o frontend e o backend de maneira eficaz, garantindo uma comunicação suave entre as partes.",
+    "the-end-result-was-an": "O resultado final foi uma aplicação que ajuda instituições de caridade a obter mais visibilidade e doações.",
+
     "learn-more": "Ver mais >",
     "project-links": "Links do projeto",
     "source-code": "código fonte",

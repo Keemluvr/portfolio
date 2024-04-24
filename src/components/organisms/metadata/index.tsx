@@ -45,7 +45,7 @@ const generateMetadata = async ({ pageName, locale }: generateMetadataProps): Pr
         siteName: siteName,
         images: [
           {
-            url: `${root}assets/${page.image.path}`,
+            url: `${root}assets/${page.image.path[locale]}`,
             width: page.image.width,
             height: page.image.height
           }
