@@ -43,6 +43,10 @@
     "during-the-project": "Durante o projeto, aprendi muito sobre conceitos de autenticação e autorização, especialmente ao trabalhar com o Celebrate para garantir a segurança da API. Também tive a oportunidade de reforçar meu conhecimento em armazenamento local e persistência de dados para autenticação. Outra parte importante do processo foi entender como integrar o frontend e o backend de maneira eficaz, garantindo uma comunicação suave entre as partes.",
     "the-end-result-was-an": "O resultado final foi uma aplicação que ajuda instituições de caridade a obter mais visibilidade e doações.",
 
+    "github-consumer-description": "Listagem dos usuários usando a API do Github, tendo a possibilidade de ver os repositórios que o usuário possui ao entrar no seu perfil.",
+    "is-a-personal-project-i-developed": "GitHub Consumer é um projeto pessoal que desenvolvi para aprimorar minhas habilidades em Vue.js e consumo de APIs. A ideia foi criar uma aplicação que permitisse pesquisar usuários do GitHub, exibir informações do perfil, e listar os repositórios associados a cada usuário. Se um repositório for selecionado, o usuário é redirecionado para a página do repositório no GitHub.",
+    "to-build-the-project": "Para construir o projeto, usei Vue.js para a interface, Axios para chamadas assíncronas e CSS para um design responsivo. Trabalhar com essas ferramentas me ensinou a consumir dados de APIs RESTful e a lidar com problemas comuns de conexão, como tratamento de erros e manipulação de promessas.",
+
     "learn-more": "Ver mais >",
     "project-links": "Links do projeto",
     "source-code": "código fonte",

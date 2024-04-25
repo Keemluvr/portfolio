@@ -24,9 +24,18 @@ const projects: Project[] = [
     imgSrc: "/assets/projects/be-the-hero.png",
     code: "https://github.com/Keemluvr/be-the-hero",
     projectLink: "https://to-be-hero.netlify.app",
-    tech: ["ReactJS", "Local Storage", "Node", "Express", "SQLite", "Knex", "Celebrate", "Expo"],
+    tech: ["ReactJS", "Local Storage", "Node", "Express", "SQLite", "Knex", "Celebrate", "Expo", "Jest"],
     description: "be-the-hero-description",
     modalContent: ["is-a-project-i-developed", "in-developing-i-used-a", "during-the-project", "the-end-result-was-an"]
+  },
+  {
+    title: "GitHub Consumer",
+    imgSrc: "/assets/projects/github-consumer.png",
+    code: "https://github.com/Keemluvr/github-consumer",
+    projectLink: "https://github-consumer.vercel.app/",
+    tech: ["Vue.js", "Vue Router", "GitHub API", "Axios"],
+    description: "github-consumer-description",
+    modalContent: ["is-a-personal-project-i-developed", "to-build-the-project"]
   }
 ];
 
