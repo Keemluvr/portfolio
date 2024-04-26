@@ -32,10 +32,19 @@ const projects: Project[] = [
     title: "GitHub Consumer",
     imgSrc: "/assets/projects/github-consumer.png",
     code: "https://github.com/Keemluvr/github-consumer",
-    projectLink: "https://github-consumer.vercel.app/",
+    projectLink: "https://github-consumer.vercel.app",
     tech: ["Vue.js", "Vue Router", "GitHub API", "Axios"],
     description: "github-consumer-description",
     modalContent: ["is-a-personal-project-i-developed", "to-build-the-project"]
+  },
+  {
+    title: "Wildbeast",
+    imgSrc: "/assets/projects/wildbeast.png",
+    code: "https://github.com/Keemluvr/wildbeast",
+    projectLink: "https://wildbeast.vercel.app/src",
+    tech: ["HTML", "CSS", "Grid Layout", "ITCSS", "RSCSS", "Media Queries"],
+    description: "wildbeast-description",
+    modalContent: ["is-a-personal-project-i-created", "beyond-applying-what", "allowed-me-to-explore"]
   }
 ];
 

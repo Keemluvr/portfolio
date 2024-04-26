@@ -5,13 +5,15 @@ const useForFun = [
   "React Library",
   "React Native",
   "Next UI",
+  "ITCSS",
+  "RSCSS",
   "Prisma",
   "AdobeXD",
   "Vercel",
   "Supabase",
   "Jest",
-  "MongoDB",
   "Java",
+  "MongoDB",
   "Spring"
 ];
 
