@@ -47,6 +47,11 @@
     "is-a-personal-project-i-developed": "GitHub Consumer é um projeto pessoal que desenvolvi para aprimorar minhas habilidades em Vue.js e consumo de APIs. A ideia foi criar uma aplicação que permitisse pesquisar usuários do GitHub, exibir informações do perfil, e listar os repositórios associados a cada usuário. Se um repositório for selecionado, o usuário é redirecionado para a página do repositório no GitHub.",
     "to-build-the-project": "Para construir o projeto, usei Vue.js para a interface, Axios para chamadas assíncronas e CSS para um design responsivo. Trabalhar com essas ferramentas me ensinou a consumir dados de APIs RESTful e a lidar com problemas comuns de conexão, como tratamento de erros e manipulação de promessas.",
 
+    "wildbeast-description": "Wildbeast é um projeto desenvolvido no curso de Grid Layout da Origamid, mas também serviu para a prática da estruturação do CSS em um projeto no mundo real.",
+    "is-a-personal-project-i-created": "O Wildbeast é um projeto pessoal que criei para aprimorar minhas habilidades em Grid Layout. Ele começou como parte de um curso da Origamid, onde mergulhei fundo no Grid Layout. Neste projeto, usei HTML e CSS para criar um layout moderno e responsivo, com media queries para garantir que o site se adaptasse bem a diferentes dispositivos e tamanhos de tela, incluindo mobile.",
+    "beyond-applying-what": "Além de aplicar o que aprendi no curso, tomei a iniciativa de refinar a estrutura do projeto. Por exemplo, para manter o código CSS bem organizado, adotei a abordagem ITCSS (Inverted Triangle CSS), que separa estilos globais de estilos específicos, facilitando a manutenção do código. Também implementei a metodologia RSCSS (Reasonable System for CSS Stylesheet Structure), garantindo consistência na estruturação dos componentes e maior legibilidade.",
+    "allowed-me-to-explore": "O Wildbeast me deu a oportunidade de explorar diversas técnicas de layout e organização de código, o que me permitiu aprimorar minhas habilidades em design responsivo e escrever código CSS mais limpo e organizado.",
+
     "learn-more": "Ver mais >",
     "project-links": "Links do projeto",
     "source-code": "código fonte",

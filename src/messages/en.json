@@ -47,6 +47,11 @@
     "is-a-personal-project-i-developed": "GitHub Consumer is a personal project I developed to improve my skills in Vue.js and API consumption. The idea was to create an application that allows users to search GitHub users, view profile information, and list the repositories associated with each user. If a repository is selected, the user is redirected to the corresponding GitHub page.",
     "to-build-the-project": "To build the project, I used Vue.js for the interface, Axios for asynchronous calls, and CSS for a responsive design. Working with these tools taught me how to consume data from RESTful APIs and handle common connection issues like error handling and promise management.",
 
+    "wildbeast-description": "Wildbeast is a project developed as part of the Grid Layout course from Origamid. But also provided an opportunity to practice CSS structuring in a real-world project.",
+    "is-a-personal-project-i-created": "Wildbeast is a personal project I created to sharpen my skills in Grid Layout. It began as part of a course from Origamid, where I delved deep into the subject. In this project, I used HTML and CSS to construct a modern, responsive layout, with media queries to ensure that the site adapts well to various devices and screen sizes, including mobile.",
+    "beyond-applying-what": "Beyond applying what I learned in the course, I took the initiative to refine the project's structure. For instance, to keep the CSS code well-organized, I adopted the ITCSS (Inverted Triangle CSS) approach, which separates global styles from specific ones, making the code easier to maintain. I also implemented the RSCSS (Reasonable System for CSS Stylesheet Structure) methodology, ensuring consistency in component structuring and improving readability.",
+    "allowed-me-to-explore": "Wildbeast allowed me to explore various layout techniques and code organization strategies, which helped me improve my ability to create responsive designs and write clean, well-structured code.",
+
     "learn-more": "Learn more >",
     "project-links": "Project Links",
     "source-code": "source code",
