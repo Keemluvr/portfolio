@@ -52,6 +52,13 @@
     "beyond-applying-what": "Beyond applying what I learned in the course, I took the initiative to refine the project's structure. For instance, to keep the CSS code well-organized, I adopted the ITCSS (Inverted Triangle CSS) approach, which separates global styles from specific ones, making the code easier to maintain. I also implemented the RSCSS (Reasonable System for CSS Stylesheet Structure) methodology, ensuring consistency in component structuring and improving readability.",
     "allowed-me-to-explore": "Wildbeast allowed me to explore various layout techniques and code organization strategies, which helped me improve my ability to create responsive designs and write clean, well-structured code.",
 
+    "ecoleta-description": "Ecoleta aims to connect companies or entities that collect waste to people who need to dispose of this waste.",
+    "the-ecoleta-is-an-initiative": "The Ecoleta is an initiative developed during RocketSeat's Next Level Week 1.0, aiming to facilitate proper waste disposal and promote environmental sustainability. With a comprehensive platform, the project offers a web application built in ReactJS and an alternative version in Vue.js, providing flexibility and showcasing the versatility of the technologies used.",
+    "additionally-ecoleta-includes": "Additionally, Ecoleta includes a mobile application to allow users to locate collection points. The integration of Leaflet provides interactive maps, making it easier to visualize the disposal points.",
+    "security-and-code": "Security and code maintainability are prioritized through the use of Typescript, while the backend is built with Node.js and Express, ensuring a robust and scalable structure to manage platform operations.    ",
+    "data-is-stored": "Data is stored efficiently and reliably using SQLite databases for development and testing environments, and Postgres for production. The Knex ORM simplifies interaction with the database, making the process of querying and manipulating data more intuitive.",
+    "i-explored-different": "I explored different frameworks when developing versions of Ecoleta in ReactJS and Vue.js. This experience expanded my ability to adapt to different technologies and allowed me to choose the best tool for each specific project.",
+
     "learn-more": "Learn more >",
     "project-links": "Project Links",
     "source-code": "source code",

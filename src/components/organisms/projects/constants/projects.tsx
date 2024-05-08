@@ -45,6 +45,21 @@ const projects: Project[] = [
     tech: ["HTML", "CSS", "Grid Layout", "ITCSS", "RSCSS", "Media Queries"],
     description: "wildbeast-description",
     modalContent: ["is-a-personal-project-i-created", "beyond-applying-what", "allowed-me-to-explore"]
+  },
+  {
+    title: "Ecoleta",
+    imgSrc: "/assets/projects/ecoleta.png",
+    code: "https://github.com/Keemluvr/ecoleta",
+    projectLink: "https://ecoleta-keemluvr.netlify.app/",
+    tech: ["ReactJS", "Vue.js", "Leaflet", "Typescript", "Express", "Node", "SQLite", "Knex", "Sqlite3", "Postgres"],
+    description: "ecoleta-description",
+    modalContent: [
+      "the-ecoleta-is-an-initiative",
+      "additionally-ecoleta-includes",
+      "security-and-code",
+      "data-is-stored",
+      "i-explored-different"
+    ]
   }
 ];
 
