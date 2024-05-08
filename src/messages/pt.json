@@ -52,6 +52,13 @@
     "beyond-applying-what": "Além de aplicar o que aprendi no curso, tomei a iniciativa de refinar a estrutura do projeto. Por exemplo, para manter o código CSS bem organizado, adotei a abordagem ITCSS (Inverted Triangle CSS), que separa estilos globais de estilos específicos, facilitando a manutenção do código. Também implementei a metodologia RSCSS (Reasonable System for CSS Stylesheet Structure), garantindo consistência na estruturação dos componentes e maior legibilidade.",
     "allowed-me-to-explore": "O Wildbeast me deu a oportunidade de explorar diversas técnicas de layout e organização de código, o que me permitiu aprimorar minhas habilidades em design responsivo e escrever código CSS mais limpo e organizado.",
 
+    "ecoleta-description": "A Ecoleta tem como objetivo conectar empresas ou entidades que coletam resíduos às pessoas que precisam descartar esses resíduos.",
+    "the-ecoleta-is-an-initiative": "O Ecoleta é uma iniciativa desenvolvida durante a Next Level Week 1.0 da RocketSeat, visando facilitar o descarte correto de resíduos e promover a sustentabilidade ambiental. Com uma plataforma abrangente, o projeto oferece uma aplicação web construída em ReactJS e uma versão alternativa em Vue.js, proporcionando flexibilidade e demonstrando a versatilidade das tecnologias utilizadas.",
+    "additionally-ecoleta-includes": "Além disso, o Ecoleta inclui um aplicativo mobile para permitir que os usuários localizem pontos de coleta. A integração do Leaflet oferece mapas interativos, facilitando a visualização dos pontos de descarte.",
+    "security-and-code": "A segurança e a manutenibilidade do código são priorizadas com o uso do Typescript, enquanto o backend é construído com Node.js e Express, garantindo uma estrutura robusta e escalável para gerenciar as operações da plataforma.",
+    "data-is-stored": "Os dados são armazenados de forma eficiente e confiável utilizando bancos de dados SQLite para ambientes de desenvolvimento e teste, e Postgres para produção. O ORM Knex simplifica a interação com o banco de dados, tornando o processo de consulta e manipulação de dados mais intuitivo.",
+    "i-explored-different": "Explorei diferentes frameworks ao desenvolver versões do Ecoleta em ReactJS e Vue.js. Essa experiência ampliou minha capacidade de adaptação a diferentes tecnologias e me permitiu escolher a melhor ferramenta para cada projeto específico.",
+
     "learn-more": "Ver mais >",
     "project-links": "Links do projeto",
     "source-code": "código fonte",
