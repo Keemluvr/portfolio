@@ -65,6 +65,11 @@
     "to-simulate-the-backend": "To simulate the backend, a fake API was used, enabling realistic interactions with the products.",
     "this-project-helped": "This project helped develop my skills in Vue.js, data manipulation, responsive design, and good code architecture practices.",
 
+    "animais-fantasticos-description": "Discover the realm of Fantastic Beasts through an interactive page featuring captivating animations and immersive descriptions.",
+    "animais-fantasticos-is-a-project": "Animais Fantásticos is a project developed during the JavaScript Complete ES6 course at Origamid. It's a Landing Page dedicated to exploring the world of animations. I utilized HTML, CSS Grid, NPM, and Git to craft an interactive and responsive experience.",
+    "the-page-showcases-a-variety": "The page showcases a variety of animations, each accompanied by brief descriptions. These technologies enabled me to build a flexible framework, ensuring a consistent experience across different devices.",
+    "through-this-project-i-honed": "Through this project, I honed my technical skills and deepened my passion for creating engaging web experiences.",
+
     "learn-more": "Learn more >",
     "project-links": "Project Links",
     "source-code": "source code",
