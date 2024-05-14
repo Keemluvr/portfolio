@@ -16,7 +16,7 @@ interface Props {
 }
 
 export const ProjectCard = ({ project }: Props) => {
-  const { title, imgSrc, code, projectLink, tech, description } = project;
+  const { title, imgSrc, imgBlur, code, projectLink, tech, description } = project;
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   const [hovered, setHovered] = useState(false);
 
@@ -35,8 +35,10 @@ export const ProjectCard = ({ project }: Props) => {
           className={classNameProjectCard.projectImageWrapper}
         >
           <Image
-            priority
             src={imgSrc}
+            placeholder="blur"
+            blurDataURL={imgBlur}
+            loading="lazy"
             className={classNameProjectCard.projectImage(hovered)}
             alt={t("an-image-of-the", { title })}
             width={1000}

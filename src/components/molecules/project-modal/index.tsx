@@ -16,7 +16,7 @@ interface ProjectModalProps {
 }
 
 export const ProjectModal = ({ project, isOpen, onOpenChange }: ProjectModalProps) => {
-  const { title, imgSrc, code, projectLink, tech, modalContent } = project;
+  const { title, imgSrc, imgBlur, code, projectLink, tech, modalContent } = project;
 
   const t = useTranslations("Projects");
 
@@ -32,7 +32,16 @@ export const ProjectModal = ({ project, isOpen, onOpenChange }: ProjectModalProp
     >
       <ModalContent>
         <ModalHeader>
-          <Image src={imgSrc} width={768} height={768} alt={t("an-image-of-the", { title })} quality={100} />
+          <Image
+            src={imgSrc}
+            width={768}
+            height={768}
+            placeholder="blur"
+            blurDataURL={imgBlur}
+            loading="lazy"
+            alt={t("an-image-of-the", { title })}
+            quality={100}
+          />
         </ModalHeader>
         <ModalBody>
           <h4 className={classNameProjectModal.modalTitle}>{title}</h4>
