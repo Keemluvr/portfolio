@@ -65,6 +65,11 @@
     "to-simulate-the-backend": "Para simular o backend, foi utilizada uma API fake, permitindo interações realistas com os produtos.",
     "this-project-helped": "Este projeto ajudou a desenvolver minhas habilidades em Vue.js, manipulação de dados, design responsivo e boas práticas de arquitetura de código.",
 
+    "animais-fantasticos-description": "Explore o universo dos animais fantásticos através de uma página interativa com animações e descrições envolventes.",
+    "animais-fantasticos-is-a-project": "Animais Fantásticos é um projeto desenvolvido durante o curso de JavaScript Completo ES6 na Origamid, é uma Landing Page dedicada a explorar o mundo das animações. Utilizei HTML, CSS Grid, NPM e Git para criar uma experiência interativa e responsiva.",
+    "the-page-showcases-a-variety": "A página apresenta uma variedade de animações, cada uma acompanhada por breves descrições. Essas tecnologias me permitiram criar uma estrutura flexível, garantindo uma experiência consistente em diferentes dispositivos.",
+    "through-this-project-i-honed": "Nesse projeto melhorei minhas habilidades técnicas, e também aumentou minha paixão por criar experiências envolventes na web.",
+
     "learn-more": "Ver mais >",
     "project-links": "Links do projeto",
     "source-code": "código fonte",

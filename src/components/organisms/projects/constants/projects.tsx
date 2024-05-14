@@ -74,6 +74,15 @@ const projects: Project[] = [
       "to-simulate-the-backend",
       "this-project-helped"
     ]
+  },
+  {
+    title: "Animais Fantásticos",
+    imgSrc: "/assets/projects/animais-fantasticos.png",
+    code: "https://github.com/Keemluvr/animais-fantasticos",
+    projectLink: "https://keemluvr.github.io/animais-fantasticos/",
+    tech: ["HTML", "CSS", "Javascript", "Grid", "Responsive"],
+    description: "animais-fantasticos-description",
+    modalContent: ["animais-fantasticos-is-a-project", "the-page-showcases-a-variety", "through-this-project-i-honed"]
   }
 ];
 
