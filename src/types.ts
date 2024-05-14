@@ -1,6 +1,7 @@
 export type Project = {
   title: string;
   imgSrc: string;
+  imgBlur: string;
   code: string;
   projectLink: string;
   tech: string[];
