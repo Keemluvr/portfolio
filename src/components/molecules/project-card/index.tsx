@@ -38,6 +38,7 @@ export const ProjectCard = ({ project }: Props) => {
             src={imgSrc}
             placeholder="blur"
             blurDataURL={imgBlur}
+            loading="lazy"
             className={classNameProjectCard.projectImage(hovered)}
             alt={t("an-image-of-the", { title })}
             width={1000}
