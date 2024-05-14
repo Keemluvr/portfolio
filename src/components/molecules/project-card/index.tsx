@@ -2,7 +2,7 @@
 
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { classNameProjectCard } from "./style";
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { useDisclosure } from "@nextui-org/react";
 import { ProjectModal } from "../project-modal";
@@ -22,10 +22,8 @@ export const ProjectCard = ({ project }: Props) => {
 
   const t = useTranslations("Projects");
 
-  const className = useMemo(() => classNameProjectCard, []);
-
   return (
-    <div className={className.projectWrapper}>
+    <div className={classNameProjectCard.projectWrapper}>
       <Reveal>
         <div
           role="button"
@@ -34,23 +32,23 @@ export const ProjectCard = ({ project }: Props) => {
           onMouseLeave={() => setHovered(false)}
           onClick={onOpen}
           onKeyDown={onOpen}
-          className={className.projectImageWrapper}
+          className={classNameProjectCard.projectImageWrapper}
         >
           <Image
             priority
             src={imgSrc}
-            className={className.projectImage(hovered)}
+            className={classNameProjectCard.projectImage(hovered)}
             alt={t("an-image-of-the", { title })}
             width={1000}
             height={0}
           />
         </div>
       </Reveal>
-      <div className={className.projectCopy}>
+      <div className={classNameProjectCard.projectCopy}>
         <Reveal>
-          <div className={className.projectTitle}>
-            <h4 className={className.projectTitleName}>{title}</h4>
-            <div className={className.projectTitleLine} />
+          <div className={classNameProjectCard.projectTitle}>
+            <h4 className={classNameProjectCard.projectTitleName}>{title}</h4>
+            <div className={classNameProjectCard.projectTitleLine} />
 
             <ExternalLink href={code}>
               <AiFillGithub />
@@ -62,12 +60,18 @@ export const ProjectCard = ({ project }: Props) => {
           </div>
         </Reveal>
         <Reveal>
-          <div className={className.projectTech}>{tech.join(" - ")}</div>
+          <div className={classNameProjectCard.projectTech}>{tech.join(" - ")}</div>
         </Reveal>
         <Reveal>
-          <p className={className.projectDescription}>
+          <p className={classNameProjectCard.projectDescription}>
             {t(description)} <br />
-            <span onClick={onOpen} onKeyDown={onOpen} role="button" tabIndex={0} className={className.projectLearnMore}>
+            <span
+              onClick={onOpen}
+              onKeyDown={onOpen}
+              role="button"
+              tabIndex={0}
+              className={classNameProjectCard.projectLearnMore}
+            >
               {t("learn-more")}
             </span>
           </p>

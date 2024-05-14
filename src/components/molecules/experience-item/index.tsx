@@ -1,9 +1,8 @@
 "use client";
 
-import { classNameExperienceItem } from "./style";
+import { classNameExperienceItem as className } from "./style";
 import { useFormatter, useTranslations } from "next-intl";
 import { Experience } from "@/types";
-import { useMemo } from "react";
 import { Reveal } from "@/components/atoms/motion-effects/reveal";
 import { Chip } from "@nextui-org/react";
 
@@ -18,8 +17,6 @@ export const ExperienceItem = ({ experience }: Props) => {
 
   const startDate = new Date(time.start);
   const endDate = new Date(time.end);
-
-  const className = useMemo(() => classNameExperienceItem, []);
 
   return (
     <div className={className.experienceItemWrapper}>

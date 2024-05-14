@@ -19,8 +19,6 @@ const LocaleSwitcher = () => {
   const { width } = useWindowSize();
 
   const currentLocale = useMemo(() => localesMap.find((l) => l.value === localActive), [localActive]);
-  const classNames = useMemo(() => classNamesLocale, []);
-  const className = useMemo(() => classNameLocale, []);
 
   const onChangeLocale = useCallback(
     (nextLocale: Locale) => {
@@ -33,21 +31,21 @@ const LocaleSwitcher = () => {
 
   const getFlag = useCallback(
     (label: string, flag: string) => (
-      <Image width={15} height={15} alt={label || ""} src={flag || ""} className={className.localeFlag} />
+      <Image width={15} height={15} alt={label || ""} src={flag || ""} className={classNameLocale.localeFlag} />
     ),
-    [className.localeFlag]
+    []
   );
 
   const flag = useMemo(() => getFlag(currentLocale?.label || "", currentLocale?.flag || ""), [getFlag, currentLocale]);
 
   return (
-    <Dropdown isDisabled={isPending} classNames={classNames.dropdown}>
+    <Dropdown isDisabled={isPending} classNames={classNamesLocale.dropdown}>
       <DropdownTrigger>
         <Button
           variant="ghost"
           color="secondary"
           startContent={width > 640 && flag}
-          className={className.localeFlagButton}
+          className={classNameLocale.localeFlagButton}
         >
           {width > 640 ? currentLocale?.label : flag}
         </Button>

@@ -1,6 +1,5 @@
 "use client";
 
-import { useMemo } from "react";
 import { classNameSidebar } from "./style";
 import { useTranslations } from "next-intl";
 import { SidebarItem } from "./types";
@@ -15,17 +14,21 @@ type SidebarProps = {
 const Sidebar = ({ items }: SidebarProps) => {
   const t = useTranslations("Sidebar");
   const sectionInView = UseSectionInView();
-  const className = useMemo(() => classNameSidebar, []);
 
   return (
-    <motion.nav className={className.sidebarNav} initial={{ x: -70 }} animate={{ x: 0 }} transition={{ duration: 0.5 }}>
-      <div className={className.sidebarLogoWrapper}>
-        <div className={className.sidebarlogo}>
-          K<span className={className.sidebarLogoDot}>.</span>
+    <motion.nav
+      className={classNameSidebar.sidebarNav}
+      initial={{ x: -70 }}
+      animate={{ x: 0 }}
+      transition={{ duration: 0.5 }}
+    >
+      <div className={classNameSidebar.sidebarLogoWrapper}>
+        <div className={classNameSidebar.sidebarlogo}>
+          K<span className={classNameSidebar.sidebarLogoDot}>.</span>
         </div>
       </div>
       {items.map((item) => (
-        <Link key={item.label} href={item.link} className={className.sidebarItem(sectionInView, item)}>
+        <Link key={item.label} href={item.link} className={classNameSidebar.sidebarItem(sectionInView, item)}>
           {t(item.label)}
         </Link>
       ))}

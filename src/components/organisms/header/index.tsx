@@ -15,22 +15,19 @@ const Header = () => {
   const locale = useLocale();
   const t = useTranslations("Header");
 
-  const social = useMemo(() => socialList, []);
-  const classNames = useMemo(() => classNamesHeader, []);
-  const className = useMemo(() => classNameHeader, []);
   const resumeLink = useMemo(() => CV[locale as keyof typeof CV], [locale]);
 
   return (
     <Navbar
       shouldHideOnScroll
-      className={className.navbarWrapper}
+      className={classNameHeader.navbarWrapper}
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
-      classNames={classNames.navbar}
+      classNames={classNamesHeader.navbar}
     >
-      <NavbarContent className={className.navBarContent}>
-        {social.map((item, index) => (
-          <NavbarItem key={item.label} className={className.navbarItem}>
+      <NavbarContent className={classNameHeader.navBarContent}>
+        {socialList.map((item, index) => (
+          <NavbarItem key={item.label} className={classNameHeader.navbarItem}>
             <Reveal delay={Number(`0.${index + 4}`)} origin="top">
               <ExternalLink href={item.link} aria-label={item.label}>
                 {item.icon}
@@ -40,8 +37,8 @@ const Header = () => {
         ))}
       </NavbarContent>
 
-      <div className={className.navbarRightWrapper}>
-        <NavbarContent justify="center" className={className.navbarRightContent}>
+      <div className={classNameHeader.navbarRightWrapper}>
+        <NavbarContent justify="center" className={classNameHeader.navbarRightContent}>
           <NavbarItem key="locale">
             <Reveal delay={0.3} origin="top">
               <LocaleSwitcher />
@@ -49,8 +46,8 @@ const Header = () => {
           </NavbarItem>
           <NavbarItem key="my-resume">
             <Reveal delay={0} origin="top">
-              <ExternalLink href={resumeLink} className={className.navbarExternalLink}>
-                <Button size="md" variant="bordered" color="secondary" className={className.navbarMyResumeButton}>
+              <ExternalLink href={resumeLink} className={classNameHeader.navbarExternalLink}>
+                <Button size="md" variant="bordered" color="secondary" className={classNameHeader.navbarMyResumeButton}>
                   {t("my-resume")}
                 </Button>
               </ExternalLink>

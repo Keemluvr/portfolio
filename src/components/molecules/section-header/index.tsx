@@ -2,7 +2,6 @@
 
 import { classNameSectionHeader } from "./style";
 import { useTranslations } from "next-intl";
-import { useMemo } from "react";
 import { Reveal } from "@/components/atoms/motion-effects/reveal";
 
 interface SectionHeaderProps {
@@ -12,16 +11,15 @@ interface SectionHeaderProps {
 
 export const SectionHeader = ({ title, dir = "l" }: SectionHeaderProps) => {
   const t = useTranslations("Sidebar");
-  const className = useMemo(() => classNameSectionHeader, []);
 
   return (
-    <div className={className.sectionHeaderWrapper(dir)}>
-      <div className={className.SectionHeaderLine} />
+    <div className={classNameSectionHeader.sectionHeaderWrapper(dir)}>
+      <div className={classNameSectionHeader.SectionHeaderLine} />
       <h3>
         <Reveal>
-          <span className={className.SectionHeaderTitle}>
+          <span className={classNameSectionHeader.SectionHeaderTitle}>
             {t(title)}
-            <span className={className.SectionHeaderDot}>.</span>
+            <span className={classNameSectionHeader.SectionHeaderDot}>.</span>
           </span>
         </Reveal>
       </h3>
