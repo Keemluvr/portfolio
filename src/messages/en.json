@@ -59,6 +59,12 @@
     "data-is-stored": "Data is stored efficiently and reliably using SQLite databases for development and testing environments, and Postgres for production. The Knex ORM simplifies interaction with the database, making the process of querying and manipulating data more intuitive.",
     "i-explored-different": "I explored different frameworks when developing versions of Ecoleta in ReactJS and Vue.js. This experience expanded my ability to adapt to different technologies and allowed me to choose the best tool for each specific project.",
 
+    "techno-description": "Techno is a virtual technology store with an intuitive interface and responsive design, offering a modern shopping experience.",
+    "techno-is-a-technology-store": "Techno is a technology store implemented in the Origamid's Vue.js course. This project uses Vue.js to build the user interface, allowing for a dynamic and responsive experience.",
+    "the-functionality-of-local": "The functionality of local storage (Local Storage) is employed to maintain shopping cart data between sessions. The CSS architecture is based on methodologies like ITCSS and RSCSS, ensuring an efficient and scalable organization of style. Additionally, the design is fully responsive, adapting to different devices and screen sizes.",
+    "to-simulate-the-backend": "To simulate the backend, a fake API was used, enabling realistic interactions with the products.",
+    "this-project-helped": "This project helped develop my skills in Vue.js, data manipulation, responsive design, and good code architecture practices.",
+
     "learn-more": "Learn more >",
     "project-links": "Project Links",
     "source-code": "source code",

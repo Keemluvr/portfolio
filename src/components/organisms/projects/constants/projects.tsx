@@ -60,6 +60,20 @@ const projects: Project[] = [
       "data-is-stored",
       "i-explored-different"
     ]
+  },
+  {
+    title: "Techno",
+    imgSrc: "/assets/projects/techno.png",
+    code: "https://github.com/Keemluvr/techno",
+    projectLink: "https://techno-beige.vercel.app",
+    tech: ["Vue.js", "Local Storage", "ITCSS", "RSCSS", "Responsive", "Api fake"],
+    description: "techno-description",
+    modalContent: [
+      "techno-is-a-technology-store",
+      "the-functionality-of-local",
+      "to-simulate-the-backend",
+      "this-project-helped"
+    ]
   }
 ];
 
