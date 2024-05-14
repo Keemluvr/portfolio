@@ -17,7 +17,7 @@ const generateMetadata = async ({ pageName, locale }: generateMetadataProps): Pr
   const root = `${process.env.INITIAL_PATH_URL}/`;
   const isProduction = process.env.ENVIRONMENT === "production";
   const page = meta[pageName];
-  const currentURL = `${WEBSITE}${page?.path}`;
+  const currentURL = `${WEBSITE}${page?.path}/${locale}`;
   const siteName = "Keila Fernandes | Frontend Developer";
 
   return {
