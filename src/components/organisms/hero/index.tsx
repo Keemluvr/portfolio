@@ -3,11 +3,11 @@
 import { classNameHero, classNamesHero } from "./style";
 import { Button, Image as ImageUI } from "@nextui-org/react";
 import { useTranslations } from "next-intl";
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { Reveal } from "@/components/atoms/motion-effects/reveal";
-import Image from "next/image";
 import { Link } from "@/navigation";
 import { DotGrid } from "@/components/molecules/dot-grid";
+import Image from "next/image";
 
 type HeroProps = {
   profileImage: string;
@@ -17,37 +17,34 @@ const Hero = ({ profileImage }: HeroProps) => {
   const t = useTranslations("Hero");
   const [isLoadedImage, setIsLoadedImage] = useState(false);
 
-  const classNames = useMemo(() => classNamesHero, []);
-  const className = useMemo(() => classNameHero, []);
-
   return (
-    <section className={className.heroWrapper}>
-      <div className={className.heroContentWrapper}>
+    <section className={classNameHero.heroWrapper}>
+      <div className={classNameHero.heroContentWrapper}>
         <DotGrid isLoaded={isLoadedImage} />
-        <div className={className.heroDescriptionWrapper}>
+        <div className={classNameHero.heroDescriptionWrapper}>
           <Reveal>
-            <h1 className={className.heroDescriptionTitle}>
+            <h1 className={classNameHero.heroDescriptionTitle}>
               {t("hi-im-keila")}
-              <span className={className.heroDescriptionTitleDot}>.</span>
+              <span className={classNameHero.heroDescriptionTitleDot}>.</span>
             </h1>
           </Reveal>
           <Reveal>
-            <h2 className={className.heroDescriptionSubtitle}>
-              {t("im-a")} <span className={className.heroDescriptionSubtitleRole}>{t("frontend-developer")}</span>
+            <h2 className={classNameHero.heroDescriptionSubtitle}>
+              {t("im-a")} <span className={classNameHero.heroDescriptionSubtitleRole}>{t("frontend-developer")}</span>
             </h2>
           </Reveal>
           <Reveal>
-            <p className={className.heroDescription}>{t("im-passionate-about")}</p>
+            <p className={classNameHero.heroDescription}>{t("im-passionate-about")}</p>
           </Reveal>
           <Reveal>
             <Link href="#contact">
-              <Button color="secondary" radius="sm" className={className.heroContactButton}>
+              <Button color="secondary" radius="sm" className={classNameHero.heroContactButton}>
                 {t("contact-me")}
               </Button>
             </Link>
           </Reveal>
         </div>
-        <div className={className.heroImageWrapper}>
+        <div className={classNameHero.heroImageWrapper}>
           <Reveal origin="top">
             <ImageUI
               as={Image}
@@ -62,7 +59,7 @@ const Hero = ({ profileImage }: HeroProps) => {
               width={250}
               height={250}
               quality={100}
-              classNames={classNames.image}
+              classNames={classNamesHero.image}
             />
           </Reveal>
         </div>

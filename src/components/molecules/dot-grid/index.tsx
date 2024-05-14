@@ -1,5 +1,5 @@
-import { MouseEvent, useCallback, useEffect, useMemo } from "react";
-import { classNameDotGrid } from "./style";
+import { MouseEvent, useCallback, useEffect } from "react";
+import { classNameDotGrid as className } from "./style";
 import anime from "animejs";
 
 interface DotGridProps {
@@ -10,8 +10,6 @@ export const DotGrid = ({ isLoaded }: DotGridProps) => {
   const GRID_WIDTH = 20;
   const GRID_HEIGHT = 20;
   const dots = [];
-
-  const className = useMemo(() => classNameDotGrid, []);
 
   const handleDotClick = useCallback((e: MouseEvent<HTMLDivElement>) => {
     const target = e.target as HTMLElement;
