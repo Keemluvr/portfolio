@@ -31,7 +31,14 @@ const LocaleSwitcher = () => {
 
   const getFlag = useCallback(
     (label: string, flag: string) => (
-      <Image width={15} height={15} alt={label || ""} src={flag || ""} className={classNameLocale.localeFlag} />
+      <Image
+        width={15}
+        height={15}
+        alt={label || ""}
+        src={flag || ""}
+        loading="lazy"
+        className={classNameLocale.localeFlag}
+      />
     ),
     []
   );
