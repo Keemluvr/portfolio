@@ -16,6 +16,7 @@ const experience: Experience[] = [
       }
     ],
     tech: [
+      "Typescript",
       "React",
       "Redux.js",
       "ContextAPI",
@@ -28,15 +29,30 @@ const experience: Experience[] = [
       "TailwindCSS",
       "Material UI",
       "Ant Design",
+      "AdobeXD",
       "Figma",
       "Express.js",
+      "NestJS",
+      "Node",
+      "Email templates",
+      "OAuth",
+      "JWT",
       "Git",
+      "Gitflow",
       "Node",
       "Docker",
       "Postgres",
       "Nest.js",
       "Kanban",
-      "Jira"
+      "Jira",
+      "SonarQube",
+      "Sentry",
+      "SEMRush",
+      "Ahrefs",
+      "Ubersuggest",
+      "Google Analytics",
+      "Google Tag Manager",
+      "Google Search Console"
     ]
   }
 ];
